@@ -14,21 +14,19 @@ function App() {
   return (
     <div className="App">
 
+ 
       <Routes>
-        <Route
-          path="/"
-          element={
-            <>
-              <h1>PWA 테스트</h1>
-              <Install />
-              <StarRating itemId={1} />
-              <StarRating itemId={2} />
-              <StarRating itemId={3} />
-            </>
-          }
-        ></Route>
-        <Route path="/Cart" element={<Cart />} />
-        <Route path="/Login" element={<Login />} />
+        <Route path='/' element={
+          <>
+          <h1>PWA 테스트</h1>
+          <Install />
+          <StarRating itemId={1} />
+          <StarRating itemId={2} />
+          <StarRating itemId={3} />
+          </>
+        }>
+        </Route>
+        <Route path='/Cart' element={<Cart />} />
 
 
       </Routes>
