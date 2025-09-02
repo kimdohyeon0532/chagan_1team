@@ -1,7 +1,11 @@
 import React from "react";
 
 function Login() {
-  return <h1>로그인 폐지</h1>;
+  return (
+    <>
+      <h1>변경된 내용 입니다.</h1>
+    </>
+  );
 }
 
 export default Login;
