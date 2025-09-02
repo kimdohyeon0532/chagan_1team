@@ -6,11 +6,16 @@ import Login from "./login/Login";
 
 import { Route, Routes } from "react-router-dom";
 
-import "./App.css";
+
+
 
 function App() {
   return (
     <div className="App">
+
+
+
+
       <Routes>
         <Route
           path="/"
@@ -42,6 +47,7 @@ function App() {
           ></Route>
           <Route path="/Cart" element={<Cart />} />
         </Routes>
+
       </Routes>
     </div>
   );
